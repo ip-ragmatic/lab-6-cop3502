@@ -1,14 +1,14 @@
 # Team 78 Report
 
-Team members:
+**Team members**:
 
 - Mary Oswald
 - Ian Rodriguez-Page
 
-GitHub Repo Link: [https://github.com/ip-ragmatic/lab-6-cop3502]
+**GitHub Repo Link**: <https://github.com/ip-ragmatic/lab-6-cop3502>
 
-Screenshots:
+**Screenshots**:
 
-- Ian
+- Ian ![Screenshot](images/ian-diff.png "Ian Screenshot")
 
 - Mary
