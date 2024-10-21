@@ -11,6 +11,6 @@
 
 **Screenshots**:
 
-- Ian (taken before partner reassignment) ![Screenshot](images/ian-diff.png "Ian Screenshot")
+- Ian ![Screenshot](images/peter-diff.png "Ian Screenshot")
 
-- Peter ![Screenshot](images/Lab6Program.PNG "Peter Screenshot")
+- Peter ![Screenshot](images/Lab6PetersRepo_IansChanges.PNG "Ian's Push Screenshot")
