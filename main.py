@@ -26,13 +26,14 @@ def encode(pswd):
     # return "".join([str((int(char) + 3) % 10) for char in pswd])
 
 
-# PETER
+# # PETER. Just uncomment the function definition, delete pass, and push to our repo
 def decode(enc_pswd):
-    decoded = ""
-    for char in enc_pswd:
-        shifted_num = (int(char) + 7) % 10
-        decoded += str(shifted_num)
-    return decoded
+    pass
+    # decoded = ""
+    # for char in enc_pswd:
+    #     shifted_num = (int(char) + 7) % 10
+    #     decoded += str(shifted_num)
+    # return decoded
 
 
 # IAN
