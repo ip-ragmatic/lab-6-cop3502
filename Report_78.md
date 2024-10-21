@@ -2,7 +2,7 @@
 
 **Team members**:
 
-- Mary Oswald
+- Peter Gardiner
 - Ian Rodriguez-Page
 
 **GitHub Repo Link**: <https://github.com/ip-ragmatic/lab-6-cop3502>
@@ -11,4 +11,4 @@
 
 - Ian ![Screenshot](images/ian-diff.png "Ian Screenshot")
 
-- Mary
+- Peter
