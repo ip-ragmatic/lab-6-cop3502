@@ -26,7 +26,7 @@ def encode(pswd):
     # return "".join([str((int(char) + 3) % 10) for char in pswd])
 
 
-# # MARY. Just uncomment the function definition, delete pass, and push to our repo
+# # PETER. Just uncomment the function definition, delete pass, and push to our repo
 def decode(enc_pswd):
     pass
     # decoded = ""
