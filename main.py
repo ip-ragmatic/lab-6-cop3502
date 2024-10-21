@@ -19,7 +19,7 @@ def encode(pswd):
     encoded = ""
     for char in pswd:
         shift_num = (int(char) + 3) % 10  # n mod 10 where n < 10 is always n
-        encoded += str(shift_num)  # append shifted_num to encoded string
+        encoded += str(shift_num)  # append shift_num to encoded string
     return encoded
 
     # # list comprehension one-liner for fun
@@ -50,7 +50,9 @@ def main():
 
             case "2":
                 pswd_dec = decode(pswd_enc)
-                print(f"The encoded password is {pswd_enc}, and the original password is {pswd_dec}\n")
+                print(
+                    f"The encoded password is {pswd_enc}, and the original password is {pswd_dec}\n"
+                )
 
             case "3":
                 break

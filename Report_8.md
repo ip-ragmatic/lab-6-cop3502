@@ -9,6 +9,6 @@
 
 **Screenshots**:
 
-- Ian ![Screenshot](images/ian-diff.png "Ian Screenshot")
+- Ian (taken before partner reassignment) ![Screenshot](images/ian-diff.png "Ian Screenshot")
 
 - Peter
