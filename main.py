@@ -18,17 +18,22 @@ def encode(pswd):
     """
     encoded = ""
     for char in pswd:
-        shifted_num = (int(char) + 3) % 10  # n mod 10 where n < 10 is always n
-        encoded += str(shifted_num)  # append shifted_num to encoded string
+        shift_num = (int(char) + 3) % 10  # n mod 10 where n < 10 is always n
+        encoded += str(shift_num)  # append shifted_num to encoded string
     return encoded
 
-    # # list comprehension one-liner for funsies
+    # # list comprehension one-liner for fun
     # return "".join([str((int(char) + 3) % 10) for char in pswd])
 
 
-# Mary, you work on this
-def decode(pswd):
+# # MARY. Just uncomment the function definition, delete pass, and push to our repo
+def decode(enc_pswd):
     pass
+    # decoded = ""
+    # for char in enc_pswd:
+    #     shifted_num = (int(char) + 7) % 10
+    #     decoded += str(shifted_num)
+    # return decoded
 
 
 # IAN
@@ -39,12 +44,13 @@ def main():
 
         match opt_choice:
             case "1":
-                pswd_unenc = input("Please enter your password to encode: ")
-                pswd_enc = encode(pswd_unenc)
+                pswd = input("Please enter your password to encode: ")
+                pswd_enc = encode(pswd)
                 print("Your password has been encoded and stored!\n")
 
             case "2":
-                print(f"The encoded password is {pswd_enc}, and the original password is {decode(pswd_enc)}\n")
+                pswd_dec = decode(pswd_enc)
+                print(f"The encoded password is {pswd_enc}, and the original password is {pswd_dec}\n")
 
             case "3":
                 break
